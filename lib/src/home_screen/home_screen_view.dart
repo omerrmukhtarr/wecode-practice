@@ -24,7 +24,7 @@ class HomescreenView extends StatelessWidget {
               ),
             ),
             Divider(
-              color: Colors.grey,
+              color: Colors.green[800],
               height: 50.0,
             ),
             ElevatedButton(
