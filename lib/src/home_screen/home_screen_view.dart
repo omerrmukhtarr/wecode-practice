@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class HomescreenView extends StatelessWidget {
@@ -15,14 +14,7 @@ class HomescreenView extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(
-              "welcome ",
-              style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.w500,
-                letterSpacing: 3,
-              ),
-            ),
+            Text("welcome"),
             Divider(
               color: Colors.green[800],
               height: 50.0,
@@ -37,4 +29,9 @@ class HomescreenView extends StatelessWidget {
       ),
     );
   }
+
+  // Future<String> wait3secend() async {
+  //   await Future.delayed(Duration(seconds: 3));
+  //   return 'value recieved';
+  // }
 }
